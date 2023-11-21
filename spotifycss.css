@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') ;
+
+body{
+    background-color : rgb(200, 255, 252) ;
+}
+
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+nav{
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav ul{
+    display: flex ;
+    list-style :none ;
+    height: 65px ;
+    background-color: black;
+    color: white ;
+    align-items: center ;
+}
+
+nav ul li{
+    padding: 0px 12px ;
+}
+
+.logo img{
+    width: 45px ;
+    height: 45px ;
+    padding: 0px 8px ;
+}
+
+
+.logo{
+    display: flex ;
+    align-items: center ;
+    font-size: 1.3rem ;
+    font-weight: bold ;
+}
+
+.play-pause-container{
+    font-family: 'Varela Round', sans-serif;
+    height: 98px ;
+    background-color: black ;
+    color: white ;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+}
+
+#songbar{
+    width: 80vw ;
+    cursor: pointer ;
+}
+
+.icons {
+    width: 150px ;
+    display: flex ;
+    justify-content: space-between ;
+    text-align: center;
+    margin-top: 15px  ;
+}
+
+.icons i{
+    cursor: pointer ;
+}
+
+.background{
+    min-height: 70vh ;
+    width: 70% ;
+    background-color: black ;
+    color: white ;
+    font-family: 'Varela Round', sans-serif;
+    display: flex ;
+    margin: 25px auto ;
+    border-radius: 12px ;
+    padding: 35px ;
+    background-image: url('FutureOfMusic_Season02_Landscape.0.jpg');
+}
+
+.songscontainer{
+    margin-top: 25px ;
+}
+
+.songlist{
+    height: 38px ;
+    display: flex ;
+    align-items: center ;
+    font-size: 15px ;
+    background-color: white ;
+    color: black ;
+    border-radius: 34px ;
+    margin: 12px 0px ;
+}
+
+.songlist img{
+    height: 36px ;
+    width: 36px ;
+    border-radius: 18px ;
+    margin-left: 20px ;
+}
+
+.songname{
+    margin-left: 15px ;
+}
+
+.songtime{
+    position: absolute;
+    margin-left:  9cm ;
+}
+
+.songplayicon{
+    position: absolute ;
+    margin-left: 12cm ;
+}
+
+.songplayicon i{
+    cursor: pointer ;
+}
+#about , #home{
+    cursor: pointer ;
+}
+
+.songInfo{
+    display: flex ;
+    align-items: center;
+    position: absolute ;
+    left: 10vw ;
+    margin-top: 20px ;
+}
+
+.songInfo img{
+    width: 40px ;
+    margin-right: 5px ;
+    opacity: 0 ;
+    transition: opacity 0.5s ease-in ;
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color:rgb(60, 239, 28) ;
+    }
+}
